@@ -1,20 +1,21 @@
 # Welcome to Sonic Pi v3
 live_loop :strangerthings do
   with_fx :distortion do
+    use_synth:chipbass
   end
-  play :c2
+  play :c4
   sleep 0.25
-  play :e2
+  play :e4
   sleep 0.25
-  play :g2
+  play :g4
   sleep 0.25
-  play :b2
+  play :b4
   sleep 0.25
-  play :c3
+  play :c5
   sleep 0.25
-  play :g2
+  play :g4
   sleep 0.25
-  play :e2
+  play :e4
   sleep 0.25
-  play :c2
+  play :c4
 end
